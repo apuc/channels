@@ -1,0 +1,110 @@
+.app {
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+}
+
+header {
+    min-height: 80px;
+    background-color: #cc5555;
+}
+
+footer {
+    min-height: 80px;
+    background-color: #cc5555;
+}
+
+.channelWrap {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+
+.channelContent {
+    display: flex;
+    flex-direction: column;
+    width: 69%;
+    border: 1px solid gray;
+    min-height: 300px;
+    position: relative;
+}
+
+.channelSidebar {
+    width: 29%;
+    border: 1px solid gray;
+    min-height: 300px;
+    overflow-y: auto;
+}
+
+.channelSidebar_item {
+    height: 50px;
+    width: 95%;
+    margin: 5px auto;
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+}
+
+.channelSidebar_item:hover {
+    background-color: gainsboro;
+}
+
+.msgBox_item {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+}
+
+.channelContent_msgBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.channelAction {
+    display: flex;
+    background-color: #00a7d0;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    min-height: 50px;
+}
+
+.channelContent_actionBox {
+    padding: 5px;
+}
+
+._me {
+    align-self: flex-end;
+    width: 85%;
+}
+
+._partner {
+    align-self: flex-start;
+    width: 85%;
+}
+
+.actionBox_area {
+    width: 90%;
+    height: 60px;
+}
+
+.active {
+    background-color: #9d9d9d;
+}
+
+.addItem {
+    margin: 10px;
+}
